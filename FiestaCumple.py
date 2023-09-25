@@ -17,6 +17,8 @@ class FiestaCumple(Fiesta):
         cumple = self.__valueCake
         total = fiesta + cumple
         return total
+    
+    
 
     def calcular_costo_pastel(self):
         if self.__textCake!="":
